@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: whitesmoke;
+  color: #333;
+}
+header {
+  background-color: #ffcccb;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #ffb6b6;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #4b2e2e;
+}
+
+header p {
+  margin-top: 5px;
+  font-style: italic;
+  color: #5c3d3d;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4b2e2e;
+}
+nav a:hover {
+  color: #d62828;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  width: 100%;
+}
+.see-pets-button {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.see-pets-button a {
+  background-color: #ff7f7f;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-left:350px;
+    border-radius: 30px;
+  }
+/*donate*/
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #ffe5e5;
+  border-top: 2px solid #ffbdbd;
+  flex-wrap: wrap;
+}
+
+.donate-section,
+.social-section {
+  width: 300px;
+  margin: 10px;
+}
+
+.donate-section h3,
+.social-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.donate-section form input,
+.donate-section form select,
+.donate-section form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.donate-section form button {
+  background-color: #ff8a8a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* about.html */
+.about-section {
+  margin-top: auto;
+  padding: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section p, .about-section ul {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.about-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* adopt html */
+.adopt-section {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.adopt-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.pet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pet-card {
+  width: 250px;
+  background-color: #fffafa;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}         
+
+.pet-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.pet-card h2 {
+  margin: 10px 0 5px;
+  color: #444;
+}
+
+.pet-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.pet-card button {
+  background-color: #ff9090;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*contact*/
+ 
+.social-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.social-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.contact-section {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #ff8a8a;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
